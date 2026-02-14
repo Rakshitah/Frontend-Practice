@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ganagi Motors | Authorized Honda Dealer in Yaragatti</title>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"MotorcycleDealer",
+"name":"Ganagi Motors",
+"address":{
+"@type":"PostalAddress",
+"streetAddress":"B.B Road",
+"addressLocality":"Yaragatti",
+"addressRegion":"KA",
+"postalCode":"591129",
+"addressCountry":"IN"
+},
+"telephone":"+916361209588",
+"aggregateRating":{
+"@type":"AggregateRating",
+"ratingValue":"4.7",
+"reviewCount":"23"
+}
+}
+</script>
+
+<meta name="description" content="Ganagi Motors – Authorized Honda two wheeler dealer in Yaragatti. Sales, service, spare parts & genuine Honda bikes. 4.7⭐ Google rated showroom.">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+  :root{
+  --red:#e10600;
+  --text-main:#ffffff;
+}
+body.light{
+  --text-main:#111111;
+}
+
+/* ================= THEME ================= */
+:root{
+  --red:#e10600;
+  --red-glow:#ff4d4d;
+  --dark:#0b0b0d;
+  --dark2:#141417;
+  --glass:rgba(255,255,255,0.14);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,Arial,sans-serif}
+
+body{
+  background:radial-gradient(circle at top,#1a1a1f,#0b0b0d 65%);
+  color:#fff;
+}
+
+
+
+
+/* ================= NAV ================= */
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgba(0,0,0,.7);
+  backdrop-filter:blur(12px);
+  z-index:1000;
+}
+
+nav{
+  max-width:1200px;
+  height: 100px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+}
+
+nav h1{
+  color:var(--red);
+  font-size:22px;
+}
+
+/* NAV LINKS */
+#navLinks{
+  display:flex;
+  list-style:none;
+  gap:25px;
+  align-items:center;
+  margin:0;
+  padding:0;
+}
+
+#navLinks li a{
+  text-decoration:none;
+   color:rgb(222, 216, 216) !important;
+  font-size:15px;
+  font-weight:500;
+  position:relative;
+  transition:.3s;
+}
+
+
+
+#navLinks li a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  width:0;
+  height:2px;
+  background:var(--red);
+  transition:.3s;
+}
+
+#navLinks li a:hover{
+  color:var(--red);
+}
+
+#navLinks li a:hover::after{
+  width:100%;
+}
+
+/* Theme icon */
+.theme-toggle{
+  cursor:pointer;
+  font-size:18px;
+  color:var(--text-main);
+  transition:.3s;
+}
+
+.theme-toggle:hover{
+  color:var(--red);
+}
+
+
+
+/* ================= THEME TOGGLE ================= */
+.theme-toggle{
+  cursor:pointer;
+  font-size:22px;
+  margin-left:20px;
+  color:var(--text-main);
+}
+
+
+
+
+/* ================= HERO ================= */
+.hero{
+  height:100vh;
+  display:flex;align-items:center;justify-content:center;
+  background:url("https://images.unsplash.com/photo-1518551933037-91d8e8f08d49?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  position:relative;
+}
+.hero-overlay{
+  position:absolute;inset:0;
+ background:linear-gradient(135deg,rgba(0,0,0,.92),rgba(225,6,0,.45));
+}
+.hero-content{
+  position:relative;z-index:2;
+  text-align:center;max-width:900px;
+  text-shadow:0 10px 40px rgba(0,0,0,.8);
+}
+.hero h2{font-size:80px;font-weight:800}
+.hero h2 span{
+  color:var(--red);
+  text-shadow:0 0 20px rgba(225,6,0,.6);
+}
+.hero p{
+  font-size:28px;margin:25px auto 40px;
+  color:var(--text-muted);
+}
+/* ================= BUTTONS ================= */
+.hero-buttons{
+display:flex;gap:20px;justify-content:center;flex-wrap:wrap;
+}
+.btn-primary{
+background:linear-gradient(135deg,var(--red),#ff5a3d);
+padding:16px 46px;border-radius:60px;
+color:#fff;font-weight:700;text-decoration:none;
+box-shadow:0 20px 45px rgba(225,6,0,.7);
+animation:pulse 2.2s infinite;
+transition:.4s;
+}
+.btn-primary:hover{
+transform:scale(1.08);
+box-shadow:0 30px 70px rgba(225,6,0,.9);
+}
+
+@keyframes pulse{
+0%{box-shadow:0 0 0 0 rgba(225,6,0,.6)}
+70%{box-shadow:0 0 0 22px rgba(225,6,0,0)}
+100%{box-shadow:0 0 0 0 rgba(225,6,0,0)}
+}
+
+.btn-outline{
+border:2px solid #fff;
+padding:16px 46px;border-radius:60px;
+color:#fff;text-decoration:none;
+backdrop-filter:blur(6px);
+transition:.4s;
+}
+.btn-outline:hover{
+background:#fff;color:#000;
+}
+
+
+/* ================= SECTIONS ================= */
+section{
+  max-width:1200px;
+  margin:0 auto;
+  padding:60px 20px;   /* reduced spacing */
+}
+
+.title{
+  text-align:center;
+  font-size:38px;
+  margin-bottom:35px;   /* reduced from 60px */
+}
+
+.title span{color:var(--red)}
+
+section > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.gallery,
+.services,
+.video-gallery {
+  margin-bottom: 0;
+}
+
+
+/* ================= ABOUT ================= */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.about img{
+width:100%;border-radius:25px;
+box-shadow:0 30px 60px rgba(0,0,0,.6);
+transition:.6s;
+}
+.about img:hover{transform:scale(1.05)}
+
+/* ================= SERVICES / WHY US ================= */
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+.service-box{
+background:linear-gradient(135deg,rgba(255,255,255,.15),rgba(255,255,255,.05));
+backdrop-filter:blur(18px);
+padding:35px;border-radius:24px;
+text-align:center;
+box-shadow:0 25px 50px rgba(0,0,0,.55);
+transition:.4s;
+}
+.service-box i{font-size:40px;color:var(--red)}
+.service-box:hover{
+transform:translateY(-12px) scale(1.04);
+box-shadow:0 40px 80px rgba(225,6,0,.45);
+}
+
+/* ================= GALLERY ================= */
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+.gallery img{
+width:100%;height:220px;
+object-fit:contain;
+background:#fff;padding:15px;
+border-radius:24px;
+box-shadow:0 30px 60px rgba(0,0,0,.6);
+transition:.6s;
+}
+.gallery img:hover{
+transform:scale(1.1) rotate(-1deg);
+}
+
+
+/* ================= VIDEO ================= */
+.video-gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+.video-box{
+border-radius:26px;
+overflow:hidden;
+box-shadow:0 35px 70px rgba(0,0,0,.7);
+transition:.4s;
+}
+.video-box:hover{transform:translateY(-10px)}
+.video-title{
+background:rgba(0,0,0,.85);
+padding:12px;text-align:center;
+}
+
+/* ================= FORM ================= */
+form{
+max-width:500px;margin:40px auto;
+display:grid;gap:15px;
+}
+input,textarea{
+padding:15px;border-radius:12px;border:none;
+}
+button{
+background:linear-gradient(135deg,var(--red),#ff5a3d);
+color:#fff;padding:15px;border:none;
+border-radius:50px;font-weight:700;
+cursor:pointer;
+transition:.4s;
+}
+button:hover{
+transform:scale(1.06);
+box-shadow:0 20px 45px rgba(225,6,0,.8);
+}
+
+
+footer{
+  background:rgba(0,0,0,.9);
+  color:#aaa;text-align:center;padding:30px;
+  
+}
+body.light footer{
+  background:#fff;
+  color:#555;
+}
+
+/* ================= WHATSAPP ================= */
+.whatsapp{
+position:fixed;bottom:25px;right:25px;
+width:62px;height:62px;
+background:#25D366;color:#fff;
+border-radius:50%;
+display:flex;align-items:center;justify-content:center;
+font-size:32px;z-index:999;
+animation:pulse 2s infinite;
+}
+
+
+ /* ================= MOBILE OPTIMIZATION ================= */
+@media (max-width: 768px) {
+
+  /* NAVIGATION */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70px;
+  }
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    height: auto;
+    padding: 120px 20px 80px;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 15px;
+    margin: 15px auto 25px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn-primary,
+  .btn-outline {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+
+  /* SECTIONS */
+  section {
+  padding: 25px 15px;
+}
+
+
+  .title {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+
+  /* ABOUT */
+  .about {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* SERVICES */
+  .service-box {
+    padding: 20px;
+  }
+
+  .service-box h3 {
+    font-size: 16px;
+  }
+
+  /* GALLERY */
+  .gallery img {
+    height: 180px;
+    padding: 10px;
+  }
+
+  /* VIDEO */
+  .video-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  iframe {
+    width: 100%;
+    height: 220px;
+  }
+
+  /* TRUST / WHY US */
+  #trust p {
+    font-size: 14px;
+  }
+
+  /* FORM */
+  form {
+    width: 100%;
+  }
+
+  input, textarea {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  /* WHATSAPP BUTTON */
+  .whatsapp {
+    width: 55px;
+    height: 55px;
+    font-size: 26px;
+  }
+
+  /* FOOTER */
+  footer p {
+    font-size: 13px;
+  }
+
+}
+
+
+/* ================= THEME VARIABLES ================= */
+:root{
+  --bg-main: radial-gradient(circle at top,#1a1a1f,#0b0b0d 65%);
+  --bg-card: rgba(255,255,255,0.14);
+  --text-main:#ffffff;
+  --text-muted:#cccccc;
+  --red:#e10600;
+  --btn-text:#ffffff;
+  --overlay:linear-gradient(135deg,rgba(0,0,0,.9),rgba(225,6,0,.45));
+}
+
+/* LIGHT THEME */
+body.light{
+  --bg-main:#f5f6f8;
+  --bg-card:rgba(255,255,255,0.9);
+  --text-main:#111111;
+  --text-muted:#555;
+  --btn-text:#ffffff;
+  --overlay:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.6));
+}
+
+*{
+  margin:0;padding:0;box-sizing:border-box;
+  font-family:Poppins,Arial,sans-serif;
+  transition:background .4s,color .4s,box-shadow .4s,transform .4s;
+}
+
+body{
+  background:var(--bg-main);
+  color:var(--text-main);
+}
+
+
+/* ================= CARDS ================= */
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+.service-box{
+  background:var(--bg-card);
+  backdrop-filter:blur(16px);
+  padding:35px;border-radius:24px;
+  text-align:center;
+  box-shadow:0 25px 50px rgba(0,0,0,.25);
+}
+.service-box:hover{
+  transform:translateY(-10px);
+  box-shadow:0 35px 70px rgba(225,6,0,.35);
+}
+.service-box i{font-size:40px;color:var(--red)}
+
+
+
+
+/* ================= HAMBURGER ================= */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: var(--text-main);
+  transition: .4s;
+  border-radius: 3px;
+}
+
+/* Animation when active */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+
+
+ /* ===== DESKTOP NAV ===== */
+
+nav {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* Hide hamburger on desktop */
+.hamburger {
+  display: none;
+}
+
+
+/* ================= MOBILE NAV ================= */
+@media (max-width: 768px) {
+
+  nav {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  nav h1 {
+    font-size: 18px;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+  }
+
+  /* Mobile dropdown menu */
+  nav ul {
+    position: absolute;
+    top: 65px;
+    right: -100%;
+    background: black;
+    width: 220px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.4s ease;
+  }
+
+  nav ul.active {
+    right: 15px;
+  }
+
+  nav ul li {
+    margin: 15px 0;
+  }
+
+}
+
+
+
+</style>
+</head>
+
+
+
+<body>
+
+
+<header>
+<nav>
+  <h1>Om Sai Honda</h1>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#models">Models</a></li>
+    <li><a href="#gallery">Our Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li class="theme-toggle" id="themeToggle">
+      <i class="fa-solid fa-moon"></i>
+    </li>
+  </ul>
+</nav>
+
+</header>
+
+<section class="hero">
+  <!-- <div class="hero-overlay"></div> -->
+  <div class="hero-content">
+    <h2>Welcome to <span>Om Sai Honda</span></h2>
+    <p>Authorized Honda Two Wheeler Dealer. We are known for our honest service, transparent pricing, and customer-first approach.</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn-primary">Book Service</a>
+      <a href="#models" class="btn-outline">View Models</a>
+    </div>
+  </div>
+</section>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+
+/* ===== THEME TOGGLE ===== */
+const toggle=document.getElementById("themeToggle");
+const icon=toggle.querySelector("i");
+
+if(localStorage.getItem("theme")==="light"){
+  document.body.classList.add("light");
+  icon.classList.replace("fa-moon","fa-sun");
+}
+
+toggle.onclick=()=>{
+  document.body.classList.toggle("light");
+  const isLight=document.body.classList.contains("light");
+  icon.classList.toggle("fa-sun",isLight);
+  icon.classList.toggle("fa-moon",!isLight);
+  localStorage.setItem("theme",isLight?"light":"dark");
+};
+</script>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navLinks.classList.toggle("active");
+});
+</script>
+
+
+<section id="about">
+<h2 class="title">About <span>Us</span></h2>
+<div class="about">
+<img src="https://images.ctfassets.net/uwf0n1j71a7j/62mwiXn0gGT4gt7eKWuhka/14252e711c91bc16e3ccc2235e4a6827/honda-bikes.png">
+<p>
+Om Sai Honda is an authorized Honda two-wheeler dealership and service center located in Yaragatti, Karnataka. We are known for our honest service, transparent pricing, and customer-first approach. With a strong local reputation and a 4.7-star Google rating, we proudly serve customers with Honda motorcycle sales, expert servicing, and genuine spare parts. Our experienced and polite staff ensure every customer receives the right guidance, whether purchasing a new bike or maintaining an existing one. At Ganagi Motors, we aim to deliver reliable performance, long-term value, and complete satisfaction to every Honda rider. <br> <br>
+Our Mission is to deliver high-quality Honda two-wheelers, reliable service, and honest customer support while building long-term relationships with our customers through trust and transparency.
+</p>
+</div>
+</section>
+
+<section id="services">
+<h2 class="title">Our <span>Services</span></h2>
+<div class="services">
+  <div class="service-box" data-aos="zoom-in" data-aos-delay="100"><i class="fa-solid fa-motorcycle"></i><h3>Bike Sales</h3></div>
+<div class="service-box" data-aos="zoom-in" data-aos-delay="200"><i class="fa-solid fa-screwdriver-wrench"></i><h3>Service</h3></div>
+<div class="service-box" data-aos="zoom-in" data-aos-delay="300"><i class="fa-solid fa-gears"></i><h3>Spare Parts</h3></div>
+<div class="service-box" data-aos="zoom-in" data-aos-delay="400"><i class="fa-solid fa-headset"></i><h3>Support</h3></div>
+</div>
+
+
+</section>
+
+<section id="models">
+<h2 class="title">Honda <span>Models</span></h2>
+<div class="gallery">
+<img src="https://www.rushabh2w.com/assets/images/sp-125bs-vi/NewMATTE_AXIS_GREY_METALLIC.png" data-aos="fade-up" data-aos-delay="100">
+<img src="https://www.rushabh2w.com/assets/images/sp-125bs-vi/NewAthletic_blue_METALLIC.png" data-aos="fade-up" data-aos-delay="200">
+<img src="https://5.imimg.com/data5/SELLER/Default/2022/5/XZ/HI/WI/68853065/honda-unicorn-bike-1000x1000.png" data-aos="fade-up" data-aos-delay="300">
+<img src="https://th.bing.com/th/id/R.ec8d7d2996d32f5453a71c9abad9f04e?rik=2MRMzLo61mYSkQ&riu=http%3a%2f%2fsivamotors.com%2fwp-content%2fuploads%2f2023%2f08%2fHonda-Activa.png&ehk=HJo8PIUb691QGDmmdYOiNSLLBqDvmCU%2fmXmxqr7t37Q%3d&risl=&pid=ImgRaw&r=0" data-aos="fade-up" data-aos-delay="400">
+
+
+</div>
+</section>
+
+<section id="gallery">
+  <h2 class="title">Our <span>Gallery</span></h2>
+
+  <div class="gallery">
+    <img src="https://files.yappe.in/place/small/west-point-honda-service-center-two-wheeler-9761780.webp" alt="Om Sai Honda Showroom" data-aos="zoom-in">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.i7dMUQNpGRt4wX_35Fm13gHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Honda Bikes Display" data-aos="zoom-in" data-aos-delay="150">
+    <img src="https://3.bp.blogspot.com/-ULXoE4wJOZw/Vh44v2RaQeI/AAAAAAAAAvg/AUaBRh3Abok/s1600/surana-honda-01.jpg" alt="Honda Service Center" data-aos="zoom-in" data-aos-delay="300">
+    <img src="https://images.unsplash.com/photo-1511910849309-0c6f3c1b9f0a?auto=format&fit=crop&w=1200&q=80" alt="Bike Delivery" data-aos="zoom-in" data-aos-delay="450">
+    
+  </div>
+</section>
+
+
+<section id="videos">
+  <h2 class="title">Video <span>Gallery</span></h2>
+
+  <div class="video-gallery">
+
+    <div class="video-box" data-aos="fade-up">
+      <iframe 
+        src="https://www.youtube.com/embed/9J1j7ZxZbYw"
+        title="Honda Showroom Walkthrough"
+        allowfullscreen>
+      </iframe>
+      <div class="video-title">Honda Showroom Walkthrough</div>
+    </div>
+
+    <div class="video-box" data-aos="fade-up">
+      <iframe 
+        src="https://www.youtube.com/embed/8pX9R7Yz7ZQ"
+        title="Honda Bike Delivery"
+        allowfullscreen>
+      </iframe>
+      <div class="video-title">New Bike Delivery</div>
+    </div>
+
+    <div class="video-box" data-aos="fade-up">
+      <iframe 
+        src="https://www.youtube.com/embed/5dZ9qFJcY0E"
+        title="Honda Service Center"
+        allowfullscreen>
+      </iframe>
+      <div class="video-title">Service Center Overview</div>
+    </div>
+
+  </div>
+</section>
+<section id="trust">
+  <h2 class="title" data-aos="fade-up">
+    Trusted <span>Honda Dealer</span> in Yaragatti
+  </h2>
+
+  <p style="max-width:900px;margin:auto;text-align:center;opacity:.9" data-aos="fade-up">
+    Ganagi Motors has earned the trust of hundreds of Honda customers through
+    transparent pricing, genuine spare parts, and reliable service.
+    With a <strong>4.7★ Google rating</strong>, we proudly serve riders across
+    Yaragatti and nearby areas.
+  </p>
+
+  <div class="services" style="margin-top:60px">
+    <div class="service-box" data-aos="zoom-in">
+      <h3>500+</h3>
+      <p>Happy Customers</p>
+    </div>
+    <div class="service-box" data-aos="zoom-in" data-aos-delay="150">
+      <h3>5+ Years</h3>
+      <p>Experience</p>
+    </div>
+    <div class="service-box" data-aos="zoom-in" data-aos-delay="300">
+      <h3>4.7★</h3>
+      <p>Google Rating</p>
+    </div>
+    <div class="service-box" data-aos="zoom-in" data-aos-delay="450">
+      <h3>100%</h3>
+      <p>Genuine Parts</p>
+    </div>
+  </div>
+</section>
+<section id="why-us">
+  <h2 class="title" data-aos="fade-up">
+    Why to <span>Choose Us</span>
+  </h2>
+
+  <div class="services">
+    <div class="service-box" data-aos="fade-up">Authorized Honda Dealer</div>
+
+    <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+      4.7★ Google Rating
+    </div>
+
+    <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+      Genuine Spare Parts
+    </div>
+
+    <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+      Experienced & Polite Staff
+    </div>
+
+    <div class="service-box" data-aos="fade-up" data-aos-delay="400">
+      Affordable & Transparent Pricing
+    </div>
+
+    <div class="service-box" data-aos="fade-up" data-aos-delay="500">
+      One-Stop Honda Sales & Service
+    </div>
+
+    <!-- NEW BOX 1 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="600">
+      Fast & Reliable Service Turnaround
+    </div>
+
+    <!-- NEW BOX 2 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="700">
+      Customer Satisfaction Guaranteed
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact" class="contact" data-aos="fade-up">
+  
+
+<h2 class="title">Book <span>Service</span></h2>
+
+<form onsubmit="sendWA(event)">
+<input id="name" placeholder="Name" required>
+<input id="bike" placeholder="Bike Model" required>
+<input id="phone" placeholder="Phone" required>
+<textarea id="msg" placeholder="Issue"></textarea>
+<button>Send via WhatsApp</button>
+</form>
+</section>
+
+<!-- GOOGLE REVIEWS (OFFICIAL) -->
+<section>
+<h2 class="title">Google <span>Reviews</span></h2>
+<div class="review" data-aos="fade-right">
+<div class="review" data-aos="fade-up">
+<div class="review" data-aos="fade-left">
+
+<iframe
+src="https://www.google.com/maps?q=Ganagi+Motors+Yaragatti&output=embed"
+width="100%" height="450"
+style="border-radius:20px;border:0"
+loading="lazy">
+</iframe>
+</section>
+
+<footer>
+
+<p style="margin-top:15px">
+  📍 Find us on Google Maps by searching
+  <strong>“Om Sai Honda Yaragatti”</strong>
+</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/916361209588" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<script>
+function sendWA(e){
+e.preventDefault();
+let t=`Service Booking%0AName:${name.value}%0ABike:${bike.value}%0APhone:${phone.value}%0AIssue:${msg.value}`;
+window.open("https://wa.me/916361209588?text="+t,"_blank");
+}
+</script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+    easing: "ease-in-out"
+  });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({duration:1000,once:true,easing:"ease-in-out"});
+</script>
+</body>
+</html>
