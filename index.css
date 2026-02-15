@@ -288,6 +288,13 @@ transition:.4s;
   height:100%;
   display:block;
   object-fit:cover;
+  width:100%;height:100%;
+object-fit:cover;
+  display:block;
+background:#fff;padding:15px;
+border-radius:24px;
+box-shadow:0 30px 60px rgba(0,0,0,.6);
+transition:.6s;
 }
 .video-box:hover{transform:translateY(-10px)}
 .video-title{
