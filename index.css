@@ -260,7 +260,7 @@ border-radius:26px;
 overflow:hidden;
 box-shadow:0 35px 70px rgba(0,0,0,.7);
 transition:.4s;
-  
+  aspect-ratio:16/9;
 }
 
 .video-box:hover{transform:translateY(-10px)}
